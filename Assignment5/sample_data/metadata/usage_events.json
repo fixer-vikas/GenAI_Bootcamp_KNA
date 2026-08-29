@@ -1,0 +1,38 @@
+{
+  "usage_events": [
+    {
+      "event_id": "usage-1",
+      "tenant_id": "tenant-arka",
+      "workspace_id": "workspace-support",
+      "user_id": "user-001",
+      "tokens": 5600,
+      "cost": 0.14,
+      "feature": "chat",
+      "time": "2026-08-01T10:00:00Z"
+    },
+    {
+      "event_id": "usage-2",
+      "tenant_id": "tenant-arka",
+      "workspace_id": "workspace-finance",
+      "user_id": "user-002",
+      "tokens": 3200,
+      "cost": 0.09,
+      "feature": "retrieval",
+      "time": "2026-08-01T10:10:00Z"
+    },
+    {
+      "event_id": "usage-3",
+      "tenant_id": "tenant-zenith",
+      "workspace_id": "workspace-security",
+      "user_id": "user-003",
+      "tokens": 4100,
+      "cost": 0.11,
+      "feature": "chat",
+      "time": "2026-08-01T10:20:00Z"
+    }
+  ],
+  "quota_summary": {
+    "tenant-arka": 50000,
+    "tenant-zenith": 20000
+  }
+}

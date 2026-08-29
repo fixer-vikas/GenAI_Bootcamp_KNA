@@ -1,0 +1,18 @@
+{
+  "feedback": [
+    {
+      "feedback_id": "fb-1",
+      "conversation_id": "conv-1001",
+      "document_id": "doc-alpha-policy",
+      "score": 1,
+      "comment": "Helpful and grounded."
+    },
+    {
+      "feedback_id": "fb-2",
+      "conversation_id": "conv-1002",
+      "document_id": "doc-beta-finance",
+      "score": 0,
+      "comment": "Missing pricing detail."
+    }
+  ]
+}

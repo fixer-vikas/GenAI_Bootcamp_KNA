@@ -1,0 +1,28 @@
+{
+  "audit_events": [
+    {
+      "event_id": "audit-1",
+      "tenant_id": "tenant-arka",
+      "actor_id": "user-001",
+      "action": "upload_document",
+      "resource_id": "doc-alpha-policy",
+      "result": "success"
+    },
+    {
+      "event_id": "audit-2",
+      "tenant_id": "tenant-arka",
+      "actor_id": "user-002",
+      "action": "share_chat",
+      "resource_id": "conv-1002",
+      "result": "success"
+    },
+    {
+      "event_id": "audit-3",
+      "tenant_id": "tenant-zenith",
+      "actor_id": "user-003",
+      "action": "view_audit_log",
+      "resource_id": "workspace-security",
+      "result": "success"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "connectors": [
+    {
+      "connector_id": "conn-drive",
+      "type": "google_drive",
+      "tenant_id": "tenant-arka",
+      "status": "connected",
+      "credentials_ref": "secret://drive/arka"
+    },
+    {
+      "connector_id": "conn-sharepoint",
+      "type": "sharepoint",
+      "tenant_id": "tenant-arka",
+      "status": "connected",
+      "credentials_ref": "secret://sharepoint/arka"
+    },
+    {
+      "connector_id": "conn-s3",
+      "type": "s3",
+      "tenant_id": "tenant-zenith",
+      "status": "connected",
+      "credentials_ref": "secret://s3/zenith"
+    }
+  ]
+}

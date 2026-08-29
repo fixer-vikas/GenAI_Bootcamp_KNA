@@ -1,0 +1,1 @@
+Knowledge base summary: The company supports Google Drive, SharePoint, and S3 connectors. Customers may share chats, review history, and provide thumbs up or thumbs down feedback. Admins can monitor usage, quotas, and billing dashboards.

@@ -1,0 +1,38 @@
+{
+  "conversations": [
+    {
+      "conversation_id": "conv-1001",
+      "tenant_id": "tenant-arka",
+      "workspace_id": "workspace-support",
+      "user_id": "user-001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is our response SLA for premium customers?"
+        },
+        {
+          "role": "assistant",
+          "content": "Premium customers should receive a response within 2 hours according to the Customer Support Policy."
+        }
+      ],
+      "shareable": true
+    },
+    {
+      "conversation_id": "conv-1002",
+      "tenant_id": "tenant-arka",
+      "workspace_id": "workspace-finance",
+      "user_id": "user-002",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the billing plan for enterprise accounts?"
+        },
+        {
+          "role": "assistant",
+          "content": "Enterprise plans have active billing status and higher quota limits under the Finance and Billing Overview."
+        }
+      ],
+      "shareable": false
+    }
+  ]
+}

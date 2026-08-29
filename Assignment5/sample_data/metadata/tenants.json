@@ -1,0 +1,20 @@
+{
+  "tenants": [
+    {
+      "tenant_id": "tenant-arka",
+      "name": "Arka Labs",
+      "plan": "enterprise",
+      "quota_limit": 50000,
+      "billing_status": "active",
+      "retention_days": 365
+    },
+    {
+      "tenant_id": "tenant-zenith",
+      "name": "Zenith Health",
+      "plan": "pro",
+      "quota_limit": 20000,
+      "billing_status": "trial",
+      "retention_days": 180
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "workspaces": [
+    {
+      "workspace_id": "workspace-support",
+      "tenant_id": "tenant-arka",
+      "name": "Support Ops",
+      "document_ids": [
+        "doc-alpha-policy",
+        "doc-delta-knowledge"
+      ],
+      "owner_id": "user-001"
+    },
+    {
+      "workspace_id": "workspace-finance",
+      "tenant_id": "tenant-arka",
+      "name": "Finance",
+      "document_ids": [
+        "doc-beta-finance"
+      ],
+      "owner_id": "user-002"
+    },
+    {
+      "workspace_id": "workspace-security",
+      "tenant_id": "tenant-zenith",
+      "name": "Security",
+      "document_ids": [
+        "doc-gamma-security"
+      ],
+      "owner_id": "user-003"
+    }
+  ]
+}

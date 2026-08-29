@@ -1,0 +1,63 @@
+{
+  "documents": [
+    {
+      "document_id": "doc-alpha-policy",
+      "tenant_id": "tenant-arka",
+      "workspace_id": "workspace-support",
+      "name": "Customer Support Policy",
+      "source_file": "raw_documents/doc_alpha_policy.pdf",
+      "status": "ready",
+      "owner_id": "user-001",
+      "content_types": [
+        "text",
+        "table"
+      ],
+      "pages": 2,
+      "version": "v1"
+    },
+    {
+      "document_id": "doc-beta-finance",
+      "tenant_id": "tenant-arka",
+      "workspace_id": "workspace-finance",
+      "name": "Finance and Billing Overview",
+      "source_file": "raw_documents/doc_beta_finance.pdf",
+      "status": "ready",
+      "owner_id": "user-002",
+      "content_types": [
+        "text",
+        "table"
+      ],
+      "pages": 2,
+      "version": "v1"
+    },
+    {
+      "document_id": "doc-gamma-security",
+      "tenant_id": "tenant-zenith",
+      "workspace_id": "workspace-security",
+      "name": "Security and Access Controls",
+      "source_file": "raw_documents/doc_gamma_security.pdf",
+      "status": "ready",
+      "owner_id": "user-003",
+      "content_types": [
+        "text",
+        "image"
+      ],
+      "pages": 2,
+      "version": "v1"
+    },
+    {
+      "document_id": "doc-delta-knowledge",
+      "tenant_id": "tenant-arka",
+      "workspace_id": "workspace-support",
+      "name": "Knowledge Base Summary",
+      "source_file": "raw_documents/doc_delta_knowledge.txt",
+      "status": "ready",
+      "owner_id": "user-001",
+      "content_types": [
+        "text"
+      ],
+      "pages": 1,
+      "version": "v1"
+    }
+  ]
+}

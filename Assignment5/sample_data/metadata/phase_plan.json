@@ -1,0 +1,70 @@
+{
+  "phase_1": {
+    "description": "Single-app retrieval baseline",
+    "sample_documents": [
+      "doc-alpha-policy"
+    ]
+  },
+  "phase_2": {
+    "description": "Multiple documents and workspaces",
+    "sample_documents": [
+      "doc-alpha-policy",
+      "doc-beta-finance",
+      "doc-delta-knowledge"
+    ]
+  },
+  "phase_3": {
+    "description": "Async ingestion and storage",
+    "sample_jobs": [
+      {
+        "job_id": "job-101",
+        "status": "ready"
+      }
+    ]
+  },
+  "phase_4": {
+    "description": "Tenant isolation and RBAC",
+    "sample_roles": [
+      "owner",
+      "editor",
+      "viewer"
+    ]
+  },
+  "phase_5": {
+    "description": "Dense + BM25 + RRF retrieval",
+    "sample_queries": [
+      "What is the premium response SLA?",
+      "How much is the supported billing quota?"
+    ]
+  },
+  "phase_6": {
+    "description": "Image and table retrieval",
+    "sample_documents": [
+      "doc-beta-finance",
+      "doc-gamma-security"
+    ]
+  },
+  "phase_7": {
+    "description": "Evaluation and observability",
+    "sample_metrics": [
+      "latency",
+      "groundedness",
+      "feedback"
+    ]
+  },
+  "phase_8": {
+    "description": "Public API and frontend demo",
+    "sample_conversations": [
+      "conv-1001",
+      "conv-1002"
+    ]
+  },
+  "phase_9": {
+    "description": "Connectors, quotas, billing, governance",
+    "sample_connectors": [
+      "conn-drive",
+      "conn-sharepoint",
+      "conn-s3"
+    ]
+  }
+}
